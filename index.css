@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+.main {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(22, 126, 126);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(22, 126, 126);
+    width: 230px;
+    box-shadow: 2px 4px 18px;
+    height: 320px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#screen {
+    font-family: 'Ubuntu', sans-serif;
+    width: 65%;
+    padding: 10px;
+    margin: 10px 0%;
+    border: none;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(212, 226, 226);
+    transition-delay: 0.2s;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button:hover {
+    background-color: rgb(180, 190, 190);
+}
